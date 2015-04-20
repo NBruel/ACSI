@@ -14,7 +14,7 @@ public class ScoreController extends Controller{
 
   public static Result getScore(Integer id){
     ScoreModel score = Ebean.find(ScoreModel.class, id);
-    return ok();
+    return ok(Json.toJson(score));
   }
 
   public static Result createScore(){

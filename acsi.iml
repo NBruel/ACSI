@@ -360,6 +360,14 @@
           </CLASSES>
           <SOURCES></SOURCES>
         </library>
+      </orderEntry>
+<orderEntry type="module-library" scope="COMPILE">
+        <library>
+          <CLASSES>
+            <root url="jar:///home/nicolas/Images/play-2.0/framework/../repository/cache/org.postgresql/postgresql/jars/postgresql-9.2-1003-jdbc4.jar!/"></root>
+          </CLASSES>
+          <SOURCES></SOURCES>
+        </library>
       </orderEntry><orderEntry type="module-library" scope="TEST">
         <library>
           <CLASSES>
@@ -700,6 +708,14 @@
         <library>
           <CLASSES>
             <root url="jar:///home/nicolas/Images/play-2.0/framework/../repository/local/net.sf.ehcache/ehcache-core/2.5.0/jars/ehcache-core.jar!/"></root>
+          </CLASSES>
+          <SOURCES></SOURCES>
+        </library>
+      </orderEntry>
+<orderEntry type="module-library" scope="TEST">
+        <library>
+          <CLASSES>
+            <root url="jar:///home/nicolas/Images/play-2.0/framework/../repository/cache/org.postgresql/postgresql/jars/postgresql-9.2-1003-jdbc4.jar!/"></root>
           </CLASSES>
           <SOURCES></SOURCES>
         </library>
