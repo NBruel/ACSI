@@ -1,0 +1,29 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET     /users/:id                  controllers.UserController.getUser(id: Integer)
+POST    /users                      controllers.UserController.createUser
+PUT     /users/:id                  controllers.UserController.updateUser(id: Integer)
+DELETE  /users                      controllers.UserController.deleteUser()
+
+GET     /games/:id                  controllers.GameController.getGame(id: Integer)
+POST    /games                      controllers.GameController.createGame
+PUT     /games/:id                  controllers.GameController.updateGame(id: Integer)
+DELETE  /games                      controllers.GameController.deleteGame()
+
+GET     /players/:id                controllers.PlayerController.getPlayer(id: Integer)
+POST    /players                    controllers.PlayerController.createPlayer
+PUT     /players/:id                controllers.PlayerController.updatePlayer(id: Integer)
+DELETE  /players                    controllers.PlayerController.deletePlayer()
+
+GET     /scores/:id                controllers.ScoreController.getScore(id: Integer)
+POST    /scores                    controllers.ScoreController.createScore
+PUT     /scores/:id                controllers.ScoreController.updateScore(id: Integer)
+DELETE  /scores                    controllers.ScoreController.deleteScore()
+
+
+GET     /turns/:id                controllers.TurnController.getTurn(id: Integer)
+POST    /turns                    controllers.TurnController.createTurn
+PUT     /turns/:id                controllers.TurnController.updateTurn(id: Integer)
+DELETE  /turns                    controllers.TurnController.deleteTurn()
